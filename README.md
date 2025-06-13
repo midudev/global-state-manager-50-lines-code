@@ -1,21 +1,13 @@
-# bun-react-template
+# Global State Manager in 50 lines of code
 
-To install dependencies:
+No context, no provider, no state.
 
-```bash
-bun install
-```
+## Thanks to...
 
-To start a development server:
+Julien Verneaut for the article “Creating a Global State Manager in 50 lines of JS”: https://www.julienverneaut.com/en/articles/writing-state-management-library-50-lines-javascript
 
-```bash
-bun dev
-```
+Zustand, for such an amazing Source Code to learn from: https://github.com/pmndrs/zustand
 
-To run for production:
+Redux, for being such an amazing library  Bun, for creating an all-in-one fast experience  React team, for keep pushing forward
 
-```bash
-bun start
-```
-
-This project was created using `bun init` in bun v1.2.16. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+Funny cat gifs thanks to Eh Cat: https://giphy.com/ehcat
