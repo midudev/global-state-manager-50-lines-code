@@ -38,11 +38,11 @@ export const BottomRightCounterDisplay = () => {
 }
 
 export const CounterControls = () => {
-  const { increment, decrement, reset } = useCounterStore()
+  // const { increment, decrement, reset } = useCounterStore()
 
-  // const increment = useCounterStore(state => state.increment)
-  // const decrement = useCounterStore(state => state.decrement)
-  // const reset = useCounterStore(state => state.reset)
+  const increment = useCounterStore(state => state.increment)
+  const decrement = useCounterStore(state => state.decrement)
+  const reset = useCounterStore(state => state.reset)
 
   return (
     <fieldset className="!flex justify-center items-center flex-col gap-y-2 relative">
